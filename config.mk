@@ -19,7 +19,8 @@ $(call inherit-product-if-exists, vendor/google/pixel/pixel-vendor.mk)
 PRODUCT_PACKAGES += \
     PixelFrameworksOverlay \
     PixelSettingsOverlay \
-    PixelSystemUIOverlay
+    PixelSystemUIOverlay \
+    PixelTetheringOverlay
 
 # Sounds
 PRODUCT_PRODUCT_PROPERTIES += \
